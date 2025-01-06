@@ -85,40 +85,41 @@ const Contact = () => {
             </form>
           </div>
 
-          <div class="bg-gray-800 p-8 rounded-lg shadow-lg">
+          <div class="bg-gray-800 md:p-8 px-5 rounded-lg shadow-lg py-8">
             <h3 class="text-2xl font-semibold mb-6 text-center">Get in <span className="text-[#0A3981]">Touch</span></h3>
 
             <div className="flex items-center justify-center">
               <Lottie className="w-60 h-64" animationData={contactLotti} loop={true}></Lottie>
             </div>
+            
             <ul class="space-y-4">
               <li class="flex items-center">
-                <span class="w-8 h-8 flex items-center justify-center bg-[#0A3981] rounded-full text-white mr-4">
+                <span class="w-8 h-8 flex items-center justify-center text-[#0A3981] rounded-full  mr-4">
                   <FaLocationDot />
                 </span>
                 <span>Dhaka, Bangladesh</span>
               </li>
               <li class="flex items-center">
-                <span class="w-8 h-8 flex items-center justify-center bg-[#0A3981] rounded-full text-white mr-4">
+                <span class="md:w-8 w-10 h-8 flex items-center justify-center text-[#0A3981] rounded-full mr-4 ">
                   <MdEmail />
                 </span>
                 <span>mdsiamislam663@gmail.com</span>
               </li>
               <li class="flex items-center">
-                <span class="w-8 h-8 flex items-center justify-center bg-[#0A3981] rounded-full text-white mr-4">
+                <span class="w-8 h-8 flex items-center justify-center text-[#0A3981] rounded-full  mr-4">
                   <MdCall></MdCall>
                 </span>
                 <span>+880 1761617765</span>
               </li>
               <li class="flex items-center">
-                <span class="w-8 h-8 flex items-center justify-center bg-[#0A3981] rounded-full text-white mr-4">
+                <span class="w-8 h-8 flex items-center justify-center rounded-full text-[#0A3981] mr-4">
                   💬
                 </span>
-                <span>WhatsApp: +880 1951737356</span>
+                <span> +880 1951737356</span>
               </li>
             </ul>
-
           </div>
+
         </div>
       </div>
     </div>

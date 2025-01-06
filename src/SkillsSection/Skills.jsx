@@ -161,7 +161,7 @@ const Skills = () => {
           <div>
             <div class="flex justify-between items-center mb-4">
 
-              <span class="text-lg font-medium flex items-center gap-1 text-white"><DiMongodb /> Mongo db</span>
+              <span class="md:text-lg font-medium flex items-center gap-1 text-white"><DiMongodb /> <p className="">Mongo db</p></span>
               <div class="flex space-x-1">
                 <span class="w-4 h-4 bg-purple-500 rounded-full"></span>
                 <span class="w-4 h-4 bg-purple-500 rounded-full"></span>
@@ -257,7 +257,7 @@ const Skills = () => {
 
         
         </div>
-        <div className=" p-6">
+        <div className=" md:p-6 px-0">
       <Marquee gradient={false} speed={50}>
         {cards.map((card, index) => (
           <div
