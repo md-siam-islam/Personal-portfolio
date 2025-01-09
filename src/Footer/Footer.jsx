@@ -25,7 +25,7 @@ const Footer = () => {
                   alt=""
                 />
               </a>
-              <a href="https://github.com/md-siam-islam" target="_blank">
+              <a href="https://www.linkedin.com/in/md-siam-ali-219926345/" target="_blank">
                 <img
                   className="w-10"
                   src="https://img.icons8.com/?size=48&id=13930&format=png"
