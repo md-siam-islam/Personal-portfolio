@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-import img2 from "../../../assets/image/fuuspo.jpg";
+import img from '../../../../src/assets/image2/siam.jpg'
 import { MdOutlineFileDownload } from "react-icons/md";
 
 const Banner = () => {
@@ -32,7 +32,7 @@ const Banner = () => {
         </h3>
 
         <h3 className="my-7">
-          <a className="btn bg-[#0A3981] text-white font-bold px-6 py-2 uppercase hover:bg-cyan-700 font-font1">Download Resume <MdOutlineFileDownload /></a>
+          <a href="https://drive.google.com/file/d/1VyFGqfNLYLoijSkom-hvFiNr9SniJAWn/view?usp=sharing" target="_blank" className="btn bg-[#0A3981] text-white font-bold px-6 py-2 uppercase hover:bg-cyan-700 font-font1">Download Resume <MdOutlineFileDownload /></a>
         </h3>
 
 
@@ -56,8 +56,8 @@ const Banner = () => {
           style={{
             borderRadius: "30% 70% 70% 30% / 30% 39% 61% 70%",
           }}
-          className="w-[280px] lg:w-[450px] transition-transform duration-500 hover:scale-110"
-          src={img2}
+          className="w-[280px] lg:w-[450px] transition-transform duration-500 hover:scale-110 object-cover"
+          src={img}
           alt="Banner Image"
         />
       </div>

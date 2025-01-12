@@ -69,7 +69,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-[#0A3981] text-white font-bold">HIRE ME<TiChevronRightOutline /></a>
+          <a href="https://drive.google.com/file/d/1VyFGqfNLYLoijSkom-hvFiNr9SniJAWn/view?usp=sharing" target="_blank" className="btn bg-[#0A3981] text-white font-bold">HIRE ME<TiChevronRightOutline /></a>
         </div>
       </div>
     </div>
